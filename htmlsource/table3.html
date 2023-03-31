@@ -14,6 +14,7 @@
   <body>
     <!--
         caption : 테이블 제목(중앙 정렬(기본))
+        figcaption
     -->
     <table border="1">
       <caption>
@@ -35,12 +36,44 @@
       </tr>
     </table>
 
-    <p>
-      <!-- 감싸야할 문단 컨트롤+시프트+P 누르고 warp 입력 후 원하는 태그입력 -->
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, totam,
-      consequatur tempore qui explicabo vero, libero pariatur labore voluptate
-      ratione voluptates nulla sequi quo porro repudiandae provident sit ipsum
-      similique.
-    </p>
+    <table border="1">
+      <figcaption>
+        <strong>테이블</strong>
+      </figcaption>
+      <tr>
+        <th>이름</th>
+        <td>&nbsp;</td>
+        <th>연락처</th>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th>주소</th>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <th>자기소개</th>
+        <td colspan="3"></td>
+      </tr>
+    </table>
+
+    <figcaption>
+      <strong>테이블</strong>
+    </figcaption>
+    <table border="1">
+      <tr>
+        <th>이름</th>
+        <td>&nbsp;</td>
+        <th>연락처</th>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th>주소</th>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <th>자기소개</th>
+        <td colspan="3"></td>
+      </tr>
+    </table>
   </body>
 </html>
